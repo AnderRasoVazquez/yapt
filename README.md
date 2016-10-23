@@ -3,9 +3,11 @@
 yapt implements an installation menu interface around `apt search` command like `yaourt` does in Arch Linux.
 
 **Normal apt command**
+
 ![](img/apt.png)
 
 **yapt command**
+
 ![](img/yapt.png)
 
 # Usage
