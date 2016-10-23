@@ -1,0 +1,12 @@
+# AVAILABLE COLORS:
+# black, red, green, yellow, blue, magenta, cyan, white, none
+
+[Colors]
+pkgfore = green
+pkgback = none
+numfore = magenta
+numback = none
+insfore = black
+insback = green
+arrfore = yellow
+arrback = none
