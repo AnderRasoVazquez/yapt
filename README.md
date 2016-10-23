@@ -10,7 +10,7 @@ yapt implements an installation menu interface around `apt search` command like 
 
 ![](img/yapt.png)
 
-# Usage
+## Usage
 
 ```
 usage: yapt [-h] [-y] [-d] [-n] pkg
@@ -29,3 +29,18 @@ optional arguments:
 ## Dependencies
 
 + python3
+
+## Instalation
+
+`pip3 install yapt`
+
+## Customize colors
+
+yapt can read a configuration file (`~/.yaptrc` or `~/.config/yapt/yaptrc`). Copy the example configuration here:
+
+`cp /usr/share/yapt/yaptrc ~/.yaptrc`
+
+or here:
+
+`mkdir ~/.config/yapt`
+`cp /usr/share/yapt/yaptrc ~/.config/yapt/yaptrc`

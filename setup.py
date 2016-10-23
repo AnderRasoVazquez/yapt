@@ -12,4 +12,5 @@ setup(name='yapt',
       long_description='Creates an installation menu around "apt search" command',
       description='Creates an installation menu around "apt search" command',
       summary='Creates an installation menu around "apt search" command',
+      data_files=[('/usr/share/yapt', ['examples/yaptrc'])],
       )
