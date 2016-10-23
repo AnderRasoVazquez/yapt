@@ -1,7 +1,7 @@
 from distutils.core import setup, Extension
 
 setup(name='yapt',
-      version='1.0.1',
+      version='1.0.2',
       py_modules=['yapt.confighandler', 'yapt.wrapper', 'yapt.__main__'],
       scripts=['bin/yapt'],
       url='https://github.com/AnderRasoVazquez/yapt',
