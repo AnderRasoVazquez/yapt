@@ -10,5 +10,6 @@ setup(name='yapt',
       author_email='anderraso@gmail.com',
       license='gplv3',
       long_description='Creates an installation menu around "apt search" command',
+      description='Creates an installation menu around "apt search" command',
       summary='Creates an installation menu around "apt search" command',
       )
