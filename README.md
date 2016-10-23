@@ -29,7 +29,3 @@ optional arguments:
 ## Dependencies
 
 + python3
-
-## Installation
-
-
