@@ -38,9 +38,9 @@ optional arguments:
 
 yapt can read a configuration file (`~/.yaptrc` or `~/.config/yapt/yaptrc`). Copy the example configuration here:
 
-`cp /usr/share/yapt/yaptrc ~/.yaptrc`
+`cp /etc/yapt/yaptrc ~/.yaptrc`
 
 or here:
 
 `mkdir ~/.config/yapt`
-`cp /usr/share/yapt/yaptrc ~/.config/yapt/yaptrc`
+`cp /etc/yapt/yaptrc ~/.config/yapt/yaptrc`
