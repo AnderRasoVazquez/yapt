@@ -59,14 +59,15 @@ class Wrapper(object):
 
     def _build_output(self):
         """Creates a colored multiline string using 'apt search' output"""
-        pkg_name = re.compile(r'(^[0-9a-z-]+)')
+        pkg_name = re.compile(r'(^[0-9a-z-.]+)')
         installed = re.compile(r'(\[[a-zA-záéíóú\s,]+\])')
 
         cont = 1
         output = ""
 
+        # TODO use list comprehensions
         for index, line in enumerate(self._lines):
-            line = line.decode(sys.stdout.encoding)
+            line = line.decode(sys.stdout.encoding)  # TODO review
             search_pkg = pkg_name.search(line)
             if search_pkg is not None:
                 line = re.sub(pkg_name, self._conf.color['num'] +
