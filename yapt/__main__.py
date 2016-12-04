@@ -24,7 +24,7 @@ def main():
 
     try:
         yapt = Wrapper(args.pkg, args.noconfirm, args.nocolor, args.debug)
-        print(yapt.get_output())
+        yapt.print_output()
         yapt.print_instructions()
         yapt.install_packages(input())
     except KeyboardInterrupt:
