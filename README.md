@@ -36,11 +36,19 @@ optional arguments:
 
 ## Customize colors
 
-yapt can read a configuration file (`~/.yaptrc` or `~/.config/yapt/yaptrc`). Copy the example configuration here:
+yapt can read a configuration file (`~/.yaptrc` or `~/.config/yapt/yaptrc`). Example of a configuration file:
 
-`cp /etc/yapt/yaptrc ~/.yaptrc`
+```
+# AVAILABLE COLORS:
+# black, red, green, yellow, blue, magenta, cyan, white, none
 
-or here:
-
-`mkdir ~/.config/yapt`
-`cp /etc/yapt/yaptrc ~/.config/yapt/yaptrc`
+[Colors]
+pkgfore = green
+pkgback = none
+numfore = magenta
+numback = none
+insfore = black
+insback = green
+arrfore = yellow
+arrback = none
+```
